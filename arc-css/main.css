@@ -65,15 +65,28 @@ html, body{
 	display:inline-flex;
 	font-size: 32px;
 	color :var(--cl_6);
-	margin-left:10px;
+	margin-left:20px;
+    font-weight: bold;
+    font-family: Cinzel;
+    cursor: default;
 }
+
+#titlebctrl span {
+    margin-right : 10px;
+}
+
 
  .menu_off {
 
     color : var(--cl_6);
 }
 
-#titlebctrl span:hover {
+.menu_off:hover {
+
+   color : var(--cl_8);
+}
+
+#titlebctrl li:hover {
 
    color : var(--cl_8);
 }
