@@ -1,22 +1,5 @@
 @font-face {
-    font-family: Immortal;
-    src: url(immortal.ttf);
+    font-family: Arcade;
+    src: url(Arcade.ttf);
 }
 
-@font-face {
-    font-family: Cinzel;
-    font-weight: normal;
-    src: url(Cinzel-Regular.ttf);
-}
-
-@font-face {
-    font-family: Cinzel;
-    font-weight: bold;
-    src: url(Cinzel-Bold.ttf);
-}
-
-@font-face {
-    font-family: Cinzel;
-    font-weight: bolder;
-    src: url(Cinzel-Black.ttf);
-}

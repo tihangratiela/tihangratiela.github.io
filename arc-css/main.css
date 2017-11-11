@@ -5,7 +5,7 @@
   --cl_0:#29211E; /* fears :: dark colour */
   --cl_1:#3F3430; /* the life pursuit :: brigher than previous but dark */
   --cl_2:#7B4E39; /* birds of a theather :: brown - not very dark */
-  --cl_3:#936649; /* owls on the moon :: brighter than previous - brown */
+  --cl_3:#02080D; /* owls on the moon :: brighter than previous - brown */
   --cl_4:#643E33; /* smiley :: brown with a tent of brick - darker than previous */
   --cl_5:#01A8B3; /* magician's assistent :: moderate blue - perfect for contrast*/
   --cl_6:#FF9E00; /* orange fun :: orange - perfect to alternate with previous */
@@ -26,20 +26,32 @@ html, body{
 
     position:fixed;
     width:100%;
-    height:60px; /* See #wrapper bottom value */
+    height:100px; /* See #wrapper bottom value */
     background-image: url(banner_texture_100x.png);
     background-repeat: repeat;
     background-color: var(--cl_0);
-    border-bottom : 1px solid var(--cl_7);
-    padding : 10px ;
+    border-bottom : 1px solid var(--cl_6);
+    padding : 0px ;
     z-index:2;
 }
 
+#banner_span {
+  height: 100px;
+  background-color: rgba(0,0,0,0.25)
+}
 
 #banner_title {
-    font-family: Immortal;
+    font-family: Arcade;
+    font-size : 80px;
     color : var(--cl_6);
-    margin:0px
+    margin: 0px;
+    height : 100px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    border-top-right-radius : 625px;
+    border-bottom-right-radius : 625px;
+    border-top: 1px solid var(--cl_6);
+    border-bottom: 1px solid var(--cl_6);
 }
 
 
@@ -49,7 +61,7 @@ html, body{
     position:absolute;
     width:100%;
     bottom:40px;
-    top:60px; /* compensate #top height */
+    top:100px; /* compensate #top height */
 }
 
 
@@ -57,7 +69,14 @@ html, body{
 
 #titlebctrl {
 	margin: 0px;
-	padding: 0px;
+	padding: 15px;
+  height: 100px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgba(0,0,0,0.5);
+  border-top-left-radius : 625px;
+  border-bottom-left-radius : 625px;
+  border-top: 1px solid var(--cl_6);
+  border-bottom: 1px solid var(--cl_6);
 }
 
 #titlebctrl li {
@@ -66,9 +85,14 @@ html, body{
 	font-size: 32px;
 	color :var(--cl_6);
 	margin-left:20px;
-    font-weight: bold;
-    font-family: Cinzel;
-    cursor: default;
+  font-weight: bold;
+  cursor: default;
+  padding : 10px
+}
+
+#titlebctrl li:hover {
+
+  color: var(--cl_8);
 }
 
 #titlebctrl span {
@@ -86,16 +110,27 @@ html, body{
    color : var(--cl_8);
 }
 
-#titlebctrl li:hover {
-
-   color : var(--cl_8);
-}
-
  .menu_on {
 
     color : var(--cl_8);
 }
 
+.tme {
+  background-color: rgba(0,0,0,0.5);
+  border-radius : 625px;
+  border-top: 1px solid var(--cl_6);
+  border-bottom: 1px solid var(--cl_6);
+}
+
+.tme:hover {
+  background-color: rgba(4, 109, 139,0.5);
+
+}
+
+.tms span {
+
+  font-size: 40px;
+}
 
 #arc_side{
   position:absolute;
@@ -105,7 +140,7 @@ html, body{
   width:200px;   /* See #right left value */
   overflow-y:auto; /* make scrollable if content overflows */
   overflow-x: hidden;
-  border-left : 1px solid var(--cl_7);
+  border-left : 1px solid var(--cl_6);
 
 
   scrollbar-face-color: var(--cl_1);
@@ -152,7 +187,7 @@ html, body{
     background-repeat: repeat;
     background-color: var(--cl_0);
     padding: 10px;
-    border-top: 1px solid var(--cl_7);
+    border-top: 1px solid var(--cl_6);
     overflow : hidden;
 
 }
