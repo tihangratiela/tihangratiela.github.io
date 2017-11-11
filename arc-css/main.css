@@ -18,7 +18,7 @@
 *{margin:0;}
 html, body{
   height:100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* the topbar */
@@ -168,9 +168,38 @@ html, body{
   right:0; /* compensate #left width */
   bottom:0px;
   height:100%;
+  overflow-y:auto; /* make scrollable if content overflows */
+  overflow-x: hidden;
   background:var(--cl_3);
 
+  scrollbar-face-color: var(--cl_1);
+    scrollbar-shadow-color: var(--cl_3);
+    scrollbar-highlight-color: var(--cl_3);
+    scrollbar-3dlight-color: var(--cl_3);
+    scrollbar-darkshadow-color: var(--cl_3);
+    scrollbar-track-color: var(--cl_3);
+    scrollbar-arrow-color: var(--cl_3);
+
 }
+
+#arc_main::-webkit-scrollbar {
+    width: 8px;
+}
+
+#arc_main::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px var(--cl_0);
+    /*-webkit-border-radius: 10px;
+    border-radius: 10px;*/
+}
+
+#arc_main::-webkit-scrollbar-thumb {
+    /*-webkit-border-radius: 10px;
+    border-radius: 10px;*/
+    background: var(--cl_6);
+    -webkit-box-shadow: inset 0 0 6px var(--cl_0);
+}
+
+
 #arc_footer {
     position: absolute;
     bottom:0;
@@ -192,4 +221,62 @@ html, body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+/* specific page css */
+
+/* rezumat */
+
+#p_rezumat_banner {
+  width : 100%;
+  height: auto;
+  background-color: #046D8B ;
+  color : var(--cl_8);
+  padding : 20px;
+  font-size : 32px;
+  border-bottom : 1px solid var(--cl_8);
+}
+
+#p_rezumat_ul_1 {
+  width : 100%;
+  height:auto;
+  margin: 0px;
+  padding:0px;
+  display: inline-flex;
+  background-color: inherit;
+}
+
+#p_rezumat_ul_1 li {
+  -webkit-app-region: no-drag;
+  cursor: default;
+  display:block;
+  width : 50%;
+  padding: 20px;
+  border: 1px solid var(--cl_8);
+  color : var(--cl_6);
+}
+
+#p_rezumat_ul_2 {
+  width : 100%;
+  height:auto;
+  margin: 0px;
+  padding:0px;
+  display: inline-flex;
+  background-color: inherit;
+}
+
+#p_rezumat_ul_2 li {
+  -webkit-app-region: no-drag;
+  cursor: default;
+  display:block;
+  width : 50%;
+  padding: 20px;
+  border: 1px solid var(--cl_8);
+  color : var(--cl_6);
+}
+
+#p_rezumat_content {
+  color : var(--cl_8);
+  padding:20px;
+  font-size: 16px;
 }

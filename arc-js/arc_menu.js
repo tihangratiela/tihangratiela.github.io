@@ -23,5 +23,13 @@ $(document).ready(function(){
     			side_menu_s_o();
 			}
 
-				})
+		});
+
+		$("#arc_hb").click(function(){
+
+			$('#arc_main').load("content/pages/static/rezumat/index.html");
+
+		});
+
+		$('#arc_main').load("content/pages/static/rezumat/index.html");
 });
