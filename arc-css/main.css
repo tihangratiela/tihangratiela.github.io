@@ -82,7 +82,7 @@ html, body{
 #titlebctrl li {
 	-webkit-app-region: no-drag;
 	display:inline-flex;
-	font-size: 32px;
+	font-size: auto;
 	color :var(--cl_6);
 	margin-left:20px;
   font-weight: bold;
@@ -279,4 +279,109 @@ html, body{
   color : var(--cl_8);
   padding:20px;
   font-size: 16px;
+}
+
+/* contact */
+
+#p_contact_banner {
+  width : 100%;
+  height: auto;
+  background-color: #046D8B ;
+  color : var(--cl_8);
+  padding : 20px;
+  font-size : 32px;
+  border-bottom : 1px solid var(--cl_8);
+}
+
+.p_contact_pentry {
+  color : var(--cl_6);
+  border-bottom: 1px solid var(--cl_8);
+  padding: 20px;
+}
+
+.p_contact_pentry .pcpename {
+  color : var(--cl_8);
+}
+
+.pcpof {
+  color : #0099ff;
+}
+
+.generic_ahref {
+  text-decoration:none;
+}
+
+#p_contact_team_list ul {
+   margin:0px;
+   padding:0px;
+   display: block;
+
+}
+
+#p_contact_team_list ul li {
+
+    padding:20px;
+    color: var(--cl_8);
+    font-size: 16px;
+}
+
+#p_contact_team_list_title {
+
+  color: var(--cl_8);
+}
+
+/* activitati */
+
+#p_activitati_banner {
+  width : 100%;
+  height: auto;
+  background-color: #046D8B ;
+  color : var(--cl_8);
+  padding : 20px;
+  font-size : 32px;
+  border-bottom : 1px solid var(--cl_8);
+}
+
+#p_activitati_content ul {
+  margin:0px;
+  padding:0px;
+  width : 100%;
+  display: inline-flex;
+}
+
+#p_activitati_content li {
+  margin: 0px;
+  padding: 10px;
+  border : 1px solid var(--cl_8);
+  color : var(--cl_8);
+  font-size: 16px;
+  display: block;
+}
+
+ .arc-cl1 {
+  width:20%;
+}
+
+ .arc-cl2 {
+  width:80%;
+}
+
+/* obiective */
+
+#p_obiective_banner {
+  width : 100%;
+  height: auto;
+  background-color: #046D8B ;
+  color : var(--cl_8);
+  padding : 20px;
+  font-size : 32px;
+  border-bottom : 1px solid var(--cl_8);
+}
+
+#p_obiective_content p {
+  color : var(--cl_8);
+  padding : 10px;
+  font-size : 16px;
+  border-bottom : 1px solid var(--cl_8);
+
 }

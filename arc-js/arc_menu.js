@@ -31,5 +31,25 @@ $(document).ready(function(){
 
 		});
 
+		$("#arc_cb").click(function(){
+
+			$('#arc_main').load("content/pages/static/contact/index.html");
+
+		});
+
+		$("#arc_ab").click(function(){
+
+			$('#arc_main').load("content/pages/static/activitati/index.html");
+
+		});
+
+		$("#arc_ob").click(function(){
+
+			$('#arc_main').load("content/pages/static/obiective/index.html");
+
+		});
+
+
+
 		$('#arc_main').load("content/pages/static/rezumat/index.html");
 });
