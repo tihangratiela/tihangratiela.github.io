@@ -281,6 +281,14 @@ html, body{
   font-size: 16px;
 }
 
+#p_rezumat_fin {
+
+  color : var(--cl_6);
+  padding:20px;
+  border: 1px solid var(--cl_8);
+
+}
+
 /* contact */
 
 #p_contact_banner {
