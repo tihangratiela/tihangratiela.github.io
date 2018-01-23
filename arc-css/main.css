@@ -413,13 +413,20 @@ html, body{
 .menu_entry a {
   vertical-align: middle;
   text-align: center;
-  text-decoration: none !important; 
+  text-decoration: none !important;
   display: block;
   color: var(--cl_6);
   font-family: Immortal;
   font-size: 16px;
   font-weight: bold;
   word-wrap: normal;
+}
+
+.menu_entry a:hover {
+  text-decoration: none !important;
+  display: block;
+  color: var(--cl_6);
+  font-family: Immortal;
 }
 
 #stdidp_div {
