@@ -49,6 +49,11 @@ $(document).ready(function(){
 
 		});
 
+		$("#plus_aroundy").click(function(){
+
+			$('#arc_main').load("content/pages/dynamic/efm_dpage.html");
+		});
+
 
 
 		$('#arc_main').load("content/pages/static/rezumat/index.html");
