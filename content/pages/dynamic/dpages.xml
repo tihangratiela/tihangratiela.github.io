@@ -7,7 +7,12 @@
   </entry>
   <entry>
     <meid>dp2</meid>
-    <mename>Rezultate/livrabile în anul 2018</mename>
+    <mename>Rezultate/livrabile în anul 2018 I</mename>
     <pdf_path>dp2.pdf</pdf_path>
+  </entry>
+  <entry>
+    <meid>dp3</meid>
+    <mename>Rezultate/livrabile în anul 2018 II</mename>
+    <pdf_path>dp3.pdf</pdf_path>
   </entry>
 </entries>
